@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Cubo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <section id="error-404">
+      <div class="container">
+        <div class="error-logo">
+          <a href="#">
+            <img src="./media/logo.svg" alt="logo" title="Susurradores">
+          </a>
+        </div>
+        <div class="error-numbers">
+          <span class="span-1">4</span>
+          <span class="span-2">0</span>
+          <span class="span-3">4</span>
+        </div>
+        <div class="error-title">
+          <h1>Pagina no Encontrada</h1>
+          <p>Lo sentimos, la pagina que buscas, no esta o fue movida</p>
+        </div>
+        <div class="error-buttons">
+          <a href="#" id="backpage"><i class="fas fa-chevron-left"></i>&nbsp;&nbsp;Regresar</a>
+          <a href="#"><i class="fas fa-home"></i>&nbsp;&nbsp;Home</a>
+        </div>
+      </div>
+    </section>
+    <script src='https://kit.fontawesome.com/25f07c253e.js'></script>
+    <script>
+      var boton = document.getElementById("backpage").addEventListener("click",function() {
+        window.history.back();
+      },false);
+    </script>
+  </body>
+</html>
